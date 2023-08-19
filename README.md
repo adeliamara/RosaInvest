@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Atividades desenvolvidas no contexto da disciplina de Programação para Internet II do curso de Análise e Desenvolvimento de Sistemas do IFPI
+
+Desploy disponível em https://rosa-invest.onrender.com/products
 
 Things you may want to cover:
 
