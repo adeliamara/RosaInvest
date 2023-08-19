@@ -1,0 +1,76 @@
+/* Estilo para a mensagem de aviso */
+.notice {
+    background-color: #f0f8ff; /* Cor de fundo para a mensagem */
+    color: #006400; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #008000; /* Borda */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  /* Estilo para a barra preta */
+  .black-bar {
+    background-color: #333; /* Cor de fundo escura */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bank-logo {
+    margin-right: 10px; /* Espaço entre o ícone e o nome do banco */
+  }
+  
+  .bank-name {
+    font-size: 24px; /* Tamanho do texto do nome do banco */
+    font-weight: bold; /* Texto em negrito */
+    flex-grow: 1; /* Expande para ocupar o espaço restante */
+  }
+  
+  /* Estilos para a tabela de produtos */
+  #products {
+    margin-top: 20px;
+  }
+  
+  #products table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #products th, #products td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  #products th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+/* app/assets/stylesheets/products.css */
+
+.product-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 200px; /* Defina o tamanho desejado */
+  display: inline-block; /* Alinha lado a lado */
+  vertical-align: top; /* Alinha na parte superior */
+}
+
+.product-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-details {
+  color: #666;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; /* Aplica a fonte */
+}

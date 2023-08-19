@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  status: MyString
+  destination: MyString
+  profitabily_rate: 1
+  minimum_period_for_realization: 1
+  administration_fee: 1.5
+  due_date: 2023-08-19
+
+two:
+  name: MyString
+  status: MyString
+  destination: MyString
+  profitabily_rate: 1
+  minimum_period_for_realization: 1
+  administration_fee: 1.5
+  due_date: 2023-08-19

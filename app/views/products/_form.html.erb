@@ -1,0 +1,52 @@
+<%= form_with(model: product) do |form| %>
+  <% if product.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+        <% product.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :status, style: "display: block" %>
+    <%= form.select :status, Product::STATUS_OPTIONS %>
+  </div>
+
+  <div>
+    <%= form.label :destination, style: "display: block" %>
+    <%= form.text_field :destination %>
+  </div>
+
+  <div>
+    <%= form.label :profitabily_rate, style: "display: block" %>
+    <%= form.number_field :profitabily_rate %>
+  </div>
+
+  <div>
+    <%= form.label :minimum_period_for_realization, style: "display: block" %>
+    <%= form.number_field :minimum_period_for_realization %>
+  </div>
+
+  <div>
+    <%= form.label :administration_fee, style: "display: block" %>
+    <%= form.text_field :administration_fee %>
+  </div>
+
+  <div>
+    <%= form.label :due_date, style: "display: block" %>
+    <%= form.date_field :due_date %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -8,9 +8,22 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= stylesheet_link_tag 'products' %>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
   </head>
 
   <body>
+  <div class="black-bar">
+  <div class="bank-logo">
+    <%= image_tag('bancorosa.png', alt: 'Banco Rosa') %>
+  </div>
+  <div class="bank-name">
+    Banco Rosa
+  </div>
+</div>
+
     <%= yield %>
   </body>
 </html>
